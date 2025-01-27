@@ -185,23 +185,32 @@ The integration of AI into urban planning not only enhances the efficiency and s
 ---
 
 ## Connections to Other Work
+
 ### Related Studies
-- **Historical Foundations**:
-  - Evolution of computer-aided design (CAD) tools in architecture.
-  - Emergence of parametric design and its integration with AI.
-- **Emerging Trends**:
-  - AI-powered GIS tools for spatial analysis.
-  - Integration of IoT with urban planning systems.
 
-### Advancements
-- **Building on Past Research**: Leveraging machine learning advancements to address contemporary urban challenges.
-- **Unique Contributions**: Incorporating citizen feedback into AI-driven models for participatory planning.
+#### Historical Foundations
+- **Evolution of CAD Tools in Architecture**: Computer-aided design (CAD) has transformed architecture, providing precision and efficiency in creating and iterating urban designs. AI now extends this by automating design improvements based on real-time environmental data, optimizing factors like energy efficiency and urban aesthetics.
+- **Emergence of Parametric Design**: Parametric design revolutionized architecture by using dynamic variables. AI now enhances parametric design by optimizing urban layouts based on complex datasets, making urban planning more responsive and adaptable.
 
-### Seminal Works Referenced
-- Studies on urban mobility optimization using reinforcement learning.
-- Research on smart cities, IoT, and urban data analytics.
+#### Emerging Trends
+- **AI-Powered GIS Tools for Spatial Analysis**: Geographic Information Systems (GIS) are now enhanced with AI, enabling spatial analysis to predict urban growth, optimize land use, and improve planning accuracy. AI-driven GIS can analyze satellite data to track urban sprawl and identify future growth areas.
+- **Integration of IoT in Urban Planning**: IoT devices provide real-time data on traffic, weather, and infrastructure. AI processes this data to manage city systems, like optimizing traffic flows and resource distribution, ensuring smarter and more efficient cities.
 
 ---
+
+### Advancements
+
+#### Building on Past Research
+AI in urban planning is advancing from traditional methods, leveraging machine learning to solve modern challenges. AI allows for data-driven predictions and real-time responses, improving urban mobility, energy efficiency, and sustainability.
+
+#### Unique Contributions
+This work focuses on **participatory urban planning** by integrating citizen feedback into AI models, creating more inclusive and transparent urban development processes. AI tools like NLP allow urban planners to analyze public feedback and adjust designs dynamically.
+
+---
+
+### Seminal Works Referenced
+Research on reinforcement learning in urban mobility and smart cities has been foundational in applying AI for traffic optimization and sustainable urban development. Studies on IoT integration and spatial data analytics also inform this approach.
+
 
 ## Relevance to Capstone Project
 ### Methods for Application
