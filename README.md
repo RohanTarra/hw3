@@ -49,29 +49,94 @@ The significance of this research extends beyond theoretical exploration. It pro
 ### Mathematical and Statistical Foundations
 #### Machine Learning (ML)
 - **Supervised Learning**: Applied for predictive tasks such as traffic flow forecasting and energy demand estimation. Algorithms like linear regression, decision trees, and support vector machines (SVMs) are commonly employed.
+   - **Linear Regression**: This technique is used for predicting continuous values, such as traffic flow or energy demand. The function for linear regression is:
+     \[
+     \hat{y} = \beta_0 + \beta_1 x_1 + \beta_2 x_2 + \dots + \beta_n x_n
+     \]
+     where \(\hat{y}\) is the predicted value, \(x_1, x_2, \dots, x_n\) are input features, and \(\beta_0, \beta_1, \dots, \beta_n\) are the model coefficients.
+- **Decision Trees and SVMs**: These models classify urban data (e.g., residential areas, pollution zones). Support Vector Machines (SVMs) for classification work by finding the hyperplane that maximizes the margin between classes:
+     \[
+     \mathbf{w}^T \mathbf{x} + b = 0
+     \]
+     where \(\mathbf{w}\) is the weight vector and \(\mathbf{x}\) is the input vector.
+
 - **Unsupervised Learning**: Utilized for clustering urban zones based on parameters like population density, pollution levels, and infrastructure quality. Techniques include k-means clustering and hierarchical clustering.
+- **K-means Clustering**: Clusters urban areas based on features like density and pollution. The objective function for K-means is:
+     \[
+     J = \sum_{i=1}^{k} \sum_{j=1}^{n} \| x_j^{(i)} - \mu_i \|^2
+     \]
+     where \(x_j^{(i)}\) is the j-th data point in the i-th cluster, and \(\mu_i\) is the cluster centroid.
+
+
 - **Reinforcement Learning**: Focused on optimizing urban systems (e.g., adaptive traffic signal control). The Markov Decision Process (MDP) serves as the foundational framework, defining states, actions, rewards, and transitions.
+-  - **Markov Decision Process (MDP)**: Used for adaptive systems such as traffic control. The Bellman equation for reinforcement learning is:
+     \[
+     V(s) = \max_a \left( R(s, a) + \gamma \sum_{s'} P(s'|s,a) V(s') \right)
+     \]
+     where \(V(s)\) is the value of state \(s\), \(R(s, a)\) is the reward function, and \(\gamma\) is the discount factor.
+
 
 #### Generative Adversarial Networks (GANs)
 GANs consist of two neural networks:
 - **Generator**: Produces synthetic urban designs by mapping latent variables to realistic outputs.
 - **Discriminator**: Evaluates generated outputs against real datasets, providing feedback to improve design quality.
 This iterative process minimizes the difference between generated and real urban layouts, enhancing simulation accuracy.
+- **Loss Function**: GANs optimize a two-player game between the generator and discriminator. The objective function for GANs is:
+  \[
+  \min_G \max_D \mathbb{E}_{x \sim p_{\text{data}}(x)}[\log D(x)] + \mathbb{E}_{z \sim p_z(z)}[\log(1 - D(G(z)))]
+  \]
+  where \(G\) is the generator, \(D\) is the discriminator, \(x\) is the real data, and \(z\) is the noise input.
+
 
 #### Natural Language Processing (NLP)
 NLP methods analyze textual data from citizen feedback, policy documents, and urban surveys. Key techniques include:
 - **Tokenization and Parsing**: Breaking text into analyzable units.
+-  Breaks text into words or phrases for analysis. The function to tokenize a sentence \(S\) can be:
+   \[
+   T(S) = \{t_1, t_2, \dots, t_n\}
+   \]
+   where \(t_1, t_2, \dots, t_n\) are the tokens (words/phrases) of the sentence.
+
 - **Sentiment Analysis**: Assessing public opinion on urban projects.
+- Involves analyzing the sentiment of text. A basic sentiment function might look like:
+   \[
+   \text{Sentiment}(S) = \sum_{i=1}^n w_i t_i
+   \]
+   where \(w_i\) represents the sentiment weight of each token \(t_i\) in the sentence \(S\).
+
 - **Topic Modeling**: Identifying recurring themes in participatory discussions using Latent Dirichlet Allocation (LDA).
+-  Latent Dirichlet Allocation (LDA) is used to discover topics in a collection of documents. The likelihood function for LDA is:
+   \[
+   p(w | \theta, \phi) = \prod_{d=1}^D \prod_{n=1}^{N_d} \sum_{k=1}^K \phi_{k, w_{dn}} \theta_{d, k}
+   \]
+   where \(w_{dn}\) is the word in the n-th position of the d-th document, and \(\theta_{d, k}\) and \(\phi_{k, w_{dn}}\) are the topic distributions.
+
 
 #### Statistical Methods
 - **Regression Analysis**: Used to identify relationships between urban parameters (e.g., population density and resource consumption).
 - **Bayesian Inference**: Provides probabilistic insights into uncertain urban scenarios, such as disaster response planning.
+-   the posterior distribution is given by:
+     \[
+     p(\theta | D) = \frac{p(D | \theta) p(\theta)}{p(D)}
+     \]
+     where \(\theta\) represents the parameters and \(D\) represents the data.
 - **Monte Carlo Simulations**: Simulate various urban growth scenarios, accounting for random variability.
+-  - Simulating various urban growth scenarios, the Monte Carlo method is based on the following process:
+     \[
+     X = \frac{1}{N} \sum_{i=1}^{N} f(x_i)
+     \]
+     where \(x_i\) are randomly sampled points, and \(f(x_i)\) is the function to be estimated.
+
 
 ### Innovative Approaches
 1. **Feedback Loops**:
    - Real-time adjustments in urban planning based on sensor data (e.g., IoT-enabled traffic management).
+   -  - Real-time urban adjustments, driven by data collected via IoT sensors, can be represented as:
+     \[
+     x(t+1) = f(x(t), u(t))
+     \]
+     where \(x(t)\) is the state of the urban system at time \(t\), and \(u(t)\) is the control action applied.
+
 2. **Hybrid Models**:
    - Combining parametric design with AI to iteratively optimize urban layouts.
 
