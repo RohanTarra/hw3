@@ -242,8 +242,14 @@ E --> B
 ---
 
 ## References
-1. Adam Urban, David Hick, Joerg Rainer Noennig, Dietrich Kammer. "With a Little Help From AI: Pros and Cons of AI in Urban Planning and Participation." *International Journal of Urban Planning and Smart Cities*, Vol. 2, Issue 2, 2021.
-2. DOI: [10.4018/IJUPSC.2021070102](https://doi.org/10.4018/IJUPSC.2021070102)
+
+1. **Urban, A., Hick, D., Noennig, J. R., & Kammer, D.** (2021). *With a Little Help From AI: Pros and Cons of AI in Urban Planning and Participation*. International Journal of Urban Planning and Smart Cities, 2(2), 55-72.  
+   This paper explores the application of artificial intelligence (AI) in urban planning, focusing on the potential benefits and challenges that arise from AI integration in participatory planning processes. It provides an in-depth analysis of how AI technologies like machine learning and natural language processing are transforming urban design, decision-making, and governance. The authors discuss how AI tools can enhance the efficiency of urban planning processes, improve public participation, and address urban challenges such as resource optimization and environmental sustainability. However, the paper also highlights the ethical concerns and limitations associated with AI, including data privacy issues and the risk of bias in decision-making algorithms.
+
+2. **DOI**: [10.4018/IJUPSC.2021070102](https://doi.org/10.4018/IJUPSC.2021070102)  
+   The DOI provides direct access to the full-text article, offering further insights into the role of AI in urban planning and its impact on citizen engagement. The document is a valuable resource for researchers and urban planners interested in understanding the intersection of AI and participatory design in smart city development.
+
+
 
 ---
 
