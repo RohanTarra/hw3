@@ -50,10 +50,9 @@ The significance of this research extends beyond theoretical exploration. It pro
 #### Machine Learning (ML)
 - **Supervised Learning**: Applied for predictive tasks such as traffic flow forecasting and energy demand estimation. Algorithms like linear regression, decision trees, and support vector machines (SVMs) are commonly employed.
    - **Linear Regression**: This technique is used for predicting continuous values, such as traffic flow or energy demand. The function for linear regression is:
-     \[
-     \hat{y} = \beta_0 + \beta_1 x_1 + \beta_2 x_2 + \dots + \beta_n x_n
-     \]
-     where \(\hat{y}\) is the predicted value, \(x_1, x_2, \dots, x_n\) are input features, and \(\beta_0, \beta_1, \dots, \beta_n\) are the model coefficients.
+  \[
+\hat{y} = \beta_0 + \beta_1 x_1 + \beta_2 x_2 + \dots + \beta_n x_n
+\]
 - **Decision Trees and SVMs**: These models classify urban data (e.g., residential areas, pollution zones). Support Vector Machines (SVMs) for classification work by finding the hyperplane that maximizes the margin between classes:
      \[
      \mathbf{w}^T \mathbf{x} + b = 0
