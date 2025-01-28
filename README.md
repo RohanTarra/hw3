@@ -213,19 +213,21 @@ Research on reinforcement learning in urban mobility and smart cities has been f
 
 
 ## Relevance to Capstone Project
+
 ### Methods for Application
+
 1. **Incorporating GANs**:
-   - Generate and validate urban design prototypes.
-   - Optimize layouts for transportation, green spaces, and utilities.
+   - **Urban Design Prototypes**: Generative Adversarial Networks (GANs) can be utilized to generate diverse urban design prototypes by synthesizing layouts that account for transportation networks, green spaces, and utilities. This allows for quick iteration of planning scenarios that reflect real-world constraints and goals.
+   - **Optimization**: GANs can also optimize urban layouts by considering factors such as traffic flow, accessibility, and sustainability. This method enhances the efficiency of planning while aligning with smart city goals.
+
 2. **Leveraging NLP**:
-   - Analyze citizen feedback to prioritize urban projects.
-   - Summarize public sentiment to guide policy decisions.
+   - **Citizen Feedback**: Natural Language Processing (NLP) can analyze large volumes of citizen feedback, extracted from surveys, social media, or town hall meetings. This allows urban planners to prioritize projects based on public needs and preferences.
+   - **Public Sentiment**: Summarizing public sentiment through NLP techniques such as sentiment analysis helps guide policy decisions by providing actionable insights into community priorities and concerns.
 
 ### Expanding Scope
-- Addressing gaps in subjective data analysis (e.g., quality of life metrics).
-- Exploring adaptive strategies for disaster management and climate resilience.
+- **Subjective Data Analysis**: The project can expand by addressing gaps in analyzing qualitative data, such as quality of life metrics, through advanced NLP methods.
+- **Disaster Management & Climate Resilience**: Exploring adaptive strategies for urban resilience, leveraging AI to simulate responses to natural disasters and plan for climate adaptation.
 
----
 
 ## Additional Diagram
 Below is a diagram illustrating the iterative AI-driven urban planning process:
