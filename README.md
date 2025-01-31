@@ -2,6 +2,7 @@
 
 ## Abstract
 The phenomenon of artificial intelligence (AI) in urban planning and governance is examined in this paper. It talks about how AI tools like natural language processing (NLP), generative adversarial networks (GANs), and machine learning can be included into participatory urban design. While addressing issues like openness, legal accountability, and potential biases in data, the article highlights the advantages of AI in design decision-making, project validation, and evaluation.
+![Screenshot 2025-01-30 180526](https://github.com/user-attachments/assets/a51361e1-cc3d-4449-bcc8-0fb530545124)
 
 ---
 
