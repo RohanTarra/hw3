@@ -293,16 +293,13 @@ The use of AI for traffic optimization and sustainable urban development has its
 
 
 ## Additional Diagram
-Below is a diagram illustrating the iterative AI-driven urban planning process:
+graph LR
+  A[Government] -->|Policy Alignment| B[Urban Planners]
+  B -->|Project Design| C[Academia & Researchers]
+  C -->|Data & Insights| D[Civil Society]
+  D -->|Local Initiatives| E[Private Sector]
+  E -->|Investment & Innovation| A
 
-```mermaid
-graph TD
-A[Input Data: Urban Parameters] --> B[AI Models: GANs, NLP, ML]
-B --> C[Feedback Loop: Citizen Participation]
-C --> D[Optimized Urban Design]
-D --> E[Evaluation and Validation]
-E --> B
-```
 
 ---
 
