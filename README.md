@@ -31,20 +31,21 @@ This literature review explores the concept of *Transformation Rooms* as a frame
 
 ## Background and Motivation
 
-### Context
-Urban areas across Europe are encountering significant societal and environmental challenges. As cities grow and develop, they must address complex issues such as climate change, socio-economic inequality, and resource scarcity. Traditional governance models often fail to provide the flexibility needed to address these intertwined challenges. The *Transformation Room* concept offers a model that integrates a wide range of stakeholders, including policymakers, citizens, and researchers, to foster a more dynamic, participatory approach to urban governance.
+# Summary and Analysis: *Transformation Rooms: Building Transformative Capacity for European Cities*
+
+## Background/Motivation
+
+The research presented in the paper *Transformation Rooms: Building Transformative Capacity for European Cities* was conducted in the context of the increasing urban challenges that European cities face, including climate change, social inequality, and resource management. As urban populations continue to grow, cities are required to adopt more sustainable and inclusive governance frameworks that allow them to adapt to rapid socio-economic and environmental changes. 
+
+Historically, urban planning has followed a traditional top-down approach, where decisions are made by a select few in powerful positions, often disconnected from the needs and perspectives of local communities. This approach has led to inefficient governance, lack of citizen engagement, and fragmented policymaking. Modern cities require governance models that are more flexible, participatory, and capable of addressing the complexities of contemporary urbanization. In this context, the *Transformation Rooms* framework was introduced as a solution.
+
+The paper identifies a gap in the existing literature on urban governance models, which have typically failed to incorporate collaboration and innovation in a systematic way. While research on participatory governance and urban transformation exists, there is a lack of structured frameworks that explicitly facilitate collaboration between local governments, citizens, and niche innovations, while maintaining flexibility and scalability. The *Transformation Rooms* framework proposes a way of rethinking how urban governance processes can be restructured to encourage more co-creation, experimentation, and policy implementation. 
 
 ### Problem Addressed
-Traditional urban governance models are rigid, top-down approaches that lack the flexibility to deal with fast-evolving issues. Some of the key challenges that *Transformation Rooms* aim to address include:
-- **Fragmentation**: Urban governance often involves multiple layers of authority (local, national, and transnational), leading to inefficiency and conflicting policies.
-- **Limited Participation**: Citizen engagement in urban planning is often limited to a few consultative processes, missing the opportunity for real collaboration.
-- **Misalignment of Policy**: Urban transformation initiatives often struggle to align with broader policy goals or fail to integrate grassroots innovation with formal governance structures.
 
-### Significance
-The *Transformation Room* has the potential to significantly reshape urban governance frameworks by making them more inclusive, adaptable, and responsive to local needs. The significance of this model lies in its ability to:
-- **Enhance participatory decision-making**: Direct citizen involvement in shaping the future of cities.
-- **Foster innovative solutions**: Through experimentation and collaboration across sectors.
-- **Support scalability and adaptability**: Allowing cities to remain flexible in the face of changing economic, environmental, and social conditions.
+The problem addressed by this research is the rigidity and inefficiency of traditional urban governance systems that cannot keep pace with the rapid changes cities face today. Specifically, the paper highlights several critical issues:
+1. **Fragmentation Between Governance Levels**: Local, national, and transnational governance systems often operate in silos, which leads to misalignment in urban policies. This fragmentation makes it difficult for cities to adopt consistent, cohesive strategies for urban transformation.
+2. **Limited Citizen Participation**: Existing urban planning models often exclude citizens from decision-making processes, resulting in policies that do not reflect the needs or desires of the communities they affect. This top-down a
 
 ---
 
